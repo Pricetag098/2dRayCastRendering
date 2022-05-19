@@ -1,0 +1,14 @@
+﻿  Game.cpp
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(113,18): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(113,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(113,20): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(113,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(121,18): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(121,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(121,21): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(121,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(149,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(149,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(149,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(149,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  MapMaker.vcxproj -> C:\Users\s192262\Documents\Renderer\2dRaytraceRenderer\x64\Debug\MapMaker.exe

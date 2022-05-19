@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2dRaytraceRenderer", "2dRaytraceRenderer.vcxproj", "{E16F8F56-E10D-4A72-B7E6-342CC4D55D51}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapMaker", "..\MapMaker\MapMaker.vcxproj", "{BE213C01-C0E3-416F-85F7-EE867E77B2A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E16F8F56-E10D-4A72-B7E6-342CC4D55D51}.Debug|x64.ActiveCfg = Debug|x64
+		{E16F8F56-E10D-4A72-B7E6-342CC4D55D51}.Debug|x64.Build.0 = Debug|x64
+		{E16F8F56-E10D-4A72-B7E6-342CC4D55D51}.Debug|x86.ActiveCfg = Debug|Win32
+		{E16F8F56-E10D-4A72-B7E6-342CC4D55D51}.Debug|x86.Build.0 = Debug|Win32
+		{E16F8F56-E10D-4A72-B7E6-342CC4D55D51}.Release|x64.ActiveCfg = Release|x64
+		{E16F8F56-E10D-4A72-B7E6-342CC4D55D51}.Release|x64.Build.0 = Release|x64
+		{E16F8F56-E10D-4A72-B7E6-342CC4D55D51}.Release|x86.ActiveCfg = Release|Win32
+		{E16F8F56-E10D-4A72-B7E6-342CC4D55D51}.Release|x86.Build.0 = Release|Win32
+		{BE213C01-C0E3-416F-85F7-EE867E77B2A5}.Debug|x64.ActiveCfg = Debug|x64
+		{BE213C01-C0E3-416F-85F7-EE867E77B2A5}.Debug|x64.Build.0 = Debug|x64
+		{BE213C01-C0E3-416F-85F7-EE867E77B2A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE213C01-C0E3-416F-85F7-EE867E77B2A5}.Debug|x86.Build.0 = Debug|Win32
+		{BE213C01-C0E3-416F-85F7-EE867E77B2A5}.Release|x64.ActiveCfg = Release|x64
+		{BE213C01-C0E3-416F-85F7-EE867E77B2A5}.Release|x64.Build.0 = Release|x64
+		{BE213C01-C0E3-416F-85F7-EE867E77B2A5}.Release|x86.ActiveCfg = Release|Win32
+		{BE213C01-C0E3-416F-85F7-EE867E77B2A5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61D3C830-BA14-42F2-AD3C-4DB8899D4D51}
+	EndGlobalSection
+EndGlobal

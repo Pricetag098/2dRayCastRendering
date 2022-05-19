@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e16f8f56-e10d-4a72-b7e6-342cc4d55d51": {
+      "ProjectGuid": "e16f8f56-e10d-4a72-b7e6-342cc4d55d51",
+      "DisplayName": "2dRaytraceRenderer",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "be213c01-c0e3-416f-85f7-ee867e77b2a5": {
+      "ProjectGuid": "be213c01-c0e3-416f-85f7-ee867e77b2a5",
+      "DisplayName": "MapMaker",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
