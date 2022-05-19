@@ -14,7 +14,7 @@ public :
 	void End();
 	const static int windowWidth = 800, windowHeight = 600;
 
-	const static int mapWidth = 24, mapHeight = 24;
+	const static int mapWidth = 32, mapHeight = 32;
 	int worldMap[mapWidth][mapHeight] =
 	{
 	  {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
@@ -48,7 +48,7 @@ private:
 	double posX = 1, posY = 1;
 	double dirX = -1, dirY = 0;
 	double planeX = 0, planeY = 0.66;
-
+	int gameState = 0;
 	double movespeed = 4;
 	double rotationSpeed = 2;
 

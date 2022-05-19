@@ -11,7 +11,7 @@ Game::~Game()
 
 void Game::Run()
 {
-	InitWindow(windowWidth, windowHeight, "Sank");
+	InitWindow(windowWidth, windowHeight, "Map maker");
 	SetTargetFPS(60);
 
 	Load();
@@ -36,7 +36,13 @@ void Game::Load()
 	tex[6] = LoadTexture("pics/wood.png");
 	tex[7] = LoadTexture("pics/colorstone.png");
 	tex[8] = LoadTexture("pics/barrel.png");
-	tex[9] = LoadTexture("pics/barrel.png");
+	tex[9] = LoadTexture("pics/pillar.png");
+	std::ifstream file("../Level.lvl", std::ios::binary);
+	file.read((char*)&spawnLocation, sizeof(Vector2));
+	file.read((char*)&endLocation, sizeof(Vector2));
+	file.read((char*)&map, sizeof(int) * mapWidth * mapHeight);
+	file.close();
+
 }
 
 void Game::Unload()
@@ -144,7 +150,7 @@ void Game::Draw()
 			float xPos = x * (boxSize);
 			float yPos = y * (boxSize);
 			
-			if (map[x][y] == 0)
+			if (map[x][y] <= 0)
 			{
 				DrawRectangle(xPos, yPos, boxSize, boxSize, BLACK);
 			}
@@ -165,7 +171,7 @@ void Game::Draw()
 	Vector2 pos = { (spawnLocation.x)*boxSize,(spawnLocation.y)*boxSize };
 	DrawTextureEx(tex[8], pos, 0, boxSize / tex[8].width, WHITE);
 
-	pos = { (endLocation.x - boxSize / 2) * boxSize,(endLocation.y - boxSize / 2) * boxSize };
+	pos = { (endLocation.x) * boxSize,(endLocation.y) * boxSize };
 	DrawTextureEx(tex[9], pos, 0, boxSize / tex[9].width, WHITE);
 
 
