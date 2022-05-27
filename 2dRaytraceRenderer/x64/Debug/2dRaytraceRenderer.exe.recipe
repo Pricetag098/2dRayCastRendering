@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\s192262\Documents\Renderer\2dRaytraceRenderer\x64\Debug\2dRaytraceRenderer.exe</FullPath>
+      <FullPath>C:\Users\s192262\Documents\GitHub\2dRayCastRendering\2dRaytraceRenderer\x64\Debug\2dRaytraceRenderer.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

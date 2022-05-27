@@ -47,7 +47,7 @@ void Game::Load()
 
 void Game::Unload()
 {
-	std::ofstream file("../Level.lvl", std::ios::binary);
+	std::ofstream file("Level.lvl", std::ios::binary);
 	file.write((char*)&spawnLocation, sizeof(Vector2));
 	file.write((char*)&endLocation, sizeof(Vector2));
 	file.write((char*)*map, sizeof(int) * mapHeight * mapWidth);
@@ -132,8 +132,8 @@ void Game::Update(const float deltaTime)
 		map[x][y] = paint;
 		
 	}
-	std::cout << spawnLocation.x << ", " << spawnLocation.y << "\n";
-	std::cout << endLocation.x << ", " << endLocation.y << "\n";
+	//std::cout << spawnLocation.x << ", " << spawnLocation.y << "\n";
+	//std::cout << endLocation.x << ", " << endLocation.y << "\n";
 }
 void Game::Draw()
 {

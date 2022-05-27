@@ -1,14 +1,18 @@
 ﻿  Game.cpp
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(113,18): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(113,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(113,20): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(113,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(121,18): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(121,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(121,21): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(121,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(149,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(149,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(149,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\s192262\Documents\Renderer\MapMaker\Game.cpp(149,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  MapMaker.vcxproj -> C:\Users\s192262\Documents\Renderer\2dRaytraceRenderer\x64\Debug\MapMaker.exe
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(119,18): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(119,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(119,20): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(119,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(127,18): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(127,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(127,21): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(127,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(155,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(155,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(155,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\Game.cpp(155,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  MapMaker.cpp
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\MapMaker\MapMaker.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  MapMaker.vcxproj -> C:\Users\s192262\Documents\GitHub\2dRayCastRendering\2dRaytraceRenderer\x64\Debug\MapMaker.exe

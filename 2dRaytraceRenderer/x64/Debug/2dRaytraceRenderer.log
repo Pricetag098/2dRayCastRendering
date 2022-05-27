@@ -1,6 +1,10 @@
-﻿  Game.cpp
-C:\Users\s192262\Documents\Renderer\2dRaytraceRenderer\Game.cpp(207,18): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
-C:\Users\s192262\Documents\Renderer\2dRaytraceRenderer\Game.cpp(208,18): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
-C:\Users\s192262\Documents\Renderer\2dRaytraceRenderer\Game.cpp(209,18): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : The process cannot access the file 'c:\users\s192262\documents\github\2draycastrendering\2draytracerenderer\x64\debug\vc143.idb' because it is being used by another process.
+  2dRaytraceRenderer.cpp
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\2dRaytraceRenderer\2dRaytraceRenderer.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Game.cpp
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\2dRaytraceRenderer\Game.cpp(241,19): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\2dRaytraceRenderer\Game.cpp(242,19): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+C:\Users\s192262\Documents\GitHub\2dRayCastRendering\2dRaytraceRenderer\Game.cpp(243,19): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+  Generating Code...
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-  2dRaytraceRenderer.vcxproj -> C:\Users\s192262\Documents\Renderer\2dRaytraceRenderer\x64\Debug\2dRaytraceRenderer.exe
+  2dRaytraceRenderer.vcxproj -> C:\Users\s192262\Documents\GitHub\2dRayCastRendering\2dRaytraceRenderer\x64\Debug\2dRaytraceRenderer.exe
